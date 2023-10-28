@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+.template{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #0d1017;
+}
+
+.header{
+    width: 100%;
+    height: 40px !important;
+    border: 1px solid #724e518f;
+    background-color: #0d1017;
+    padding: 10px;
+}
+
+.resume{
+    width: 95%;
+    height: 990px;
+    background-color: white;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.button{
+    width: 70px;
+    height: 20px;
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: all ease-in-out 0.1s;
+}
+
+.button img{
+    width: 20px;
+    height: 20px;
+}
+
+.button:hover{
+   padding: 7px;
+}
+
+.fullName{
+    text-align: center;
+}
+
+.personalDetails{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F2;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.personalDetails p{
+   font-size: 14px;
+   color: #21242b;
+}
+
+.personalDetails a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #0d1017;
+}
+
+.currentJobTitle{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+.firstRow{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.educationSection{
+    display: flex; 
+}
+
+.educationSection h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.edu{
+    margin-top: 35px;
+    width: 240px;
+   
+}
+
+.edu h4{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: -14px;
+}
+
+.edu p{
+    font-weight: 500;
+    font-size: 10px;
+    color: rgb(122, 120, 112);
+    margin-top: -10px;
+}
+
+
+.workSection{
+    width: 500px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: -30px;
+}
+
+.workDetails p{
+    font-size: 14px;
+    color: rgb(122, 120, 112);
+}
+
+.dates{
+    font-size: 14px;
+    color: rgb(122, 120, 112);
+    margin-top: -15px;
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/.github.io/resume-builder-app/static/css/main.4177da91.css",
+    "main.js": "/.github.io/resume-builder-app/static/js/main.df301970.js",
+    "index.html": "/.github.io/resume-builder-app/index.html",
+    "main.4177da91.css.map": "/.github.io/resume-builder-app/static/css/main.4177da91.css.map",
+    "main.df301970.js.map": "/.github.io/resume-builder-app/static/js/main.df301970.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4177da91.css",
+    "static/js/main.df301970.js"
+  ]
+}
